@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - ESC
-  - '&td_lang'
+  - LANG
   - {t: SPACE, h: FUNCTION}
   - {t: TAB, h: M_MOUSE}
   - BSPC
@@ -48,7 +48,7 @@ layers:
   - Ctl+Sft+TAB
   - UP
   - Ctl+TAB
-  - '&zoom_in_wheel'
+  - ZOOM +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -64,20 +64,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - MB1
   - {t: ▽, type: trans}
-  - '&mkp MB2'
+  - MB2
   - {t: RCTRL, type: held}
   - {t: ▽, type: trans}
   - Sft+Gui+LEFT
   - {t: ▽, type: trans}
   - Sft+Gui+RIGHT
-  - '&zoom_out_wheel'
+  - ZOOM -
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - END
-  - '&mkp MB4'
+  - MB4
   - PAGE DOWN
   - RIGHT SHIFT
   - {t: ▽, type: trans}
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MEDIA_BT:
-  - '&studio_unlock'
+  - STUDIO
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -235,7 +235,7 @@ layers:
   - {t: ▽, type: trans}
   - MUTE
   - {t: ▽, type: trans}
-  - '&bootloader'
+  - BOOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -247,7 +247,7 @@ layers:
   - {t: ▽, type: trans}
   - VOL DN
   - {t: ▽, type: trans}
-  - '&sys_reset'
+  - RESET
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
