@@ -3,6 +3,13 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 
+#ifndef TOUCAN_POINTER_SCALE_MULTIPLIER
+#define TOUCAN_POINTER_SCALE_MULTIPLIER 1
+#endif
+
+#ifndef TOUCAN_POINTER_SCALE_DIVISOR
+#define TOUCAN_POINTER_SCALE_DIVISOR 4
+#endif
 
 / {
     chosen {
@@ -107,7 +114,14 @@
         compatible = "zmk,input-listener";
         status = "disabled";
         device = <&glidepoint_split>;
-        input-processors = <&zip_xy_scaler 250 100>;
+        /*
+         * Keep very small contact jitter from turning a tap into visible
+         * pointer movement. The scaler retains remainders, so deliberate
+         * movement is preserved once it accumulates to a full report unit.
+         */
+        input-processors = <
+            &zip_xy_scaler TOUCAN_POINTER_SCALE_MULTIPLIER TOUCAN_POINTER_SCALE_DIVISOR
+        >;
         scroller {
             layers = <1 2>;
             input-processors = <
