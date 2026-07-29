@@ -1,0 +1,260 @@
+layout: {zmk_keyboard: toucan}
+layers:
+  DEFAULT:
+  - LALT
+  - Q
+  - W
+  - {t: E, h: SCROLL}
+  - R
+  - T
+  - Y
+  - U
+  - {t: I, h: SCROLL}
+  - O
+  - P
+  - DELETE
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '''', h: M_MOUSE}
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ESC
+  - '&td_lang'
+  - {t: SPACE, h: FUNCTION}
+  - {t: TAB, h: M_MOUSE}
+  - BSPC
+  - {t: ENTER, h: NUMBER}
+  - RIGHT WIN
+  M_MOUSE:
+  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
+  - UP
+  - Ctl+TAB
+  - '&zoom_in_wheel'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - {t: ▽, type: trans}
+  - PAGE UP
+  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - {t: RCTRL, type: held}
+  - {t: ▽, type: trans}
+  - Sft+Gui+LEFT
+  - {t: ▽, type: trans}
+  - Sft+Gui+RIGHT
+  - '&zoom_out_wheel'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - END
+  - '&mkp MB4'
+  - PAGE DOWN
+  - RIGHT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  FUNCTION:
+  - {t: ▽, type: trans}
+  - LALT
+  - F7
+  - F8
+  - F9
+  - F12
+  - '@'
+  - '~'
+  - '{'
+  - '}'
+  - ;
+  - {t: ▽, type: trans}
+  - LCTRL
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '#'
+  - '-'
+  - '['
+  - ']'
+  - ':'
+  - LSHFT
+  - F1
+  - F2
+  - F3
+  - F10
+  - F13
+  - {t: ▽, type: trans}
+  - '&'
+  - _
+  - (
+  - )
+  - \
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUMBER:
+  - {t: ▽, type: trans}
+  - KP PLUS
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - {t: ▽, type: trans}
+  - HOME
+  - UP
+  - PAGE UP
+  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP ASTERISK
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP SLASH
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - '='
+  - {t: ▽, type: trans}
+  - END
+  - ''
+  - PAGE DOWN
+  - $
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  SCROLL:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  MEDIA_BT:
+  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOL UP
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - MUTE
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOL DN
+  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - BT CLR ALL
