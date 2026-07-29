@@ -123,7 +123,7 @@
             &zip_xy_scaler TOUCAN_POINTER_SCALE_MULTIPLIER TOUCAN_POINTER_SCALE_DIVISOR
         >;
         scroller {
-            layers = <1 2>;
+            layers = <4>;
             input-processors = <
                 &zip_xy_to_scroll_mapper
                 &zip_scroll_scaler 1 5
