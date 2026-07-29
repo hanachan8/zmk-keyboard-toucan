@@ -1,0 +1,14 @@
+parse_config:
+  raw_binding_map:
+    "&td_lang": "LANG"
+    "&zoom_in_wheel": "ZOOM +"
+    "&zoom_out_wheel": "ZOOM -"
+    "&mkp MB1": "MB1"
+    "&mkp MB2": "MB2"
+    "&mkp MB4": "MB4"
+    "&studio_unlock": "STUDIO"
+    "&bootloader": "BOOT"
+    "&sys_reset": "RESET"
+
+draw_config:
+  shrink_wide_legends: 6
